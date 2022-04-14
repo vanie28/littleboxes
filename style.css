@@ -1,0 +1,27 @@
+ul {
+    background-color: #3e3b3b;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    height: 28px;
+}
+
+header {
+    height: 200px;
+    width: 1260px;
+    background-image: url(pepite.jpeg);
+    background-position: center;
+}
+li {
+    margin-top: 5px;
+    margin-left: -35px;
+    margin-right: 46px;
+}
+h2 {
+    color: #3e3b3b;
+    text-align: center;
+
+}
+span {
+    font-size: 13px;
+}
