@@ -43,7 +43,14 @@ div {
       background-color: gainsboro;
   }
   
-  form {
+ .form {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+  }
+
+  input, textarea, select {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 10px;
   }
