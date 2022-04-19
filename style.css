@@ -12,16 +12,38 @@ header {
     background-image: url(pepite.jpeg);
     background-position: center;
 }
+
 li {
     margin-top: 5px;
     margin-left: -35px;
     margin-right: 46px;
 }
+
 h2 {
     color: #3e3b3b;
     text-align: center;
 
 }
+
 span {
     font-size: 13px;
 }
+
+div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li:hover {
+      background-color: gainsboro;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+  }
